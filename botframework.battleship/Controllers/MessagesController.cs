@@ -18,7 +18,7 @@ namespace botframework.battleship
         {
             if (activity.Type == ActivityTypes.Message)
             {
-                await Conversation.SendAsync(activity, () => new Dialogs.EchoWithCharacterCount());
+                await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());
             }
             else
             {
