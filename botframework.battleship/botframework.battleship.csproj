@@ -112,7 +112,7 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\MessagesController.cs" />
-    <Compile Include="Dialogs\TestSlackInteractiveMessagesDialog.cs" />
+    <Compile Include="Dialogs\SlackTestDialog.cs" />
     <Compile Include="Dialogs\EchoWithCharacterCount.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
