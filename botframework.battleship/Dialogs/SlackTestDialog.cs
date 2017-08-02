@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 namespace botframework.battleship.Dialogs
 {
     [Serializable]
-    public class RootDialog : IDialog<object>
+    public class SlackTestDialog : IDialog<object>
     {
         public Task StartAsync(IDialogContext context)
         {
