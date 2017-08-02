@@ -25,7 +25,8 @@ namespace botframework.battleship.Dialogs
             // return our reply to the user
             await context.PostAsync($"You sent {activity.Text} which was {length} characters");
 
-            context.Wait(MessageReceivedAsync);
+            //context.Wait(MessageReceivedAsync);
+            context.Done<object>(null);
         }
     }
 }
